@@ -1,0 +1,107 @@
+  body {
+        background-color: whitesmoke; font-family: Arial;
+        }
+        
+        
+        h1 {
+                background-color: rgb(121, 121, 121); font-family: Arial;    
+                text-align: center;
+                text-transform: uppercase;
+                color: #1a1818;
+        }
+
+
+        .menu-header{
+
+            display: flex;
+            padding: 8px;
+            position: relative;
+        }
+
+       
+
+      ul.menu-header{
+
+
+
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+      }
+
+      li a
+      {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;        
+
+      }
+
+      li a:hover{
+
+        background-color: yellowgreen;
+
+
+      }
+
+      
+
+
+       #logo img{
+            width: 140px;
+            margin: none;
+            padding: none;
+      }   
+        
+      #imagen-cabecera img{
+            width: 100%;
+            margin: none;
+            padding: none;
+      }   
+
+      #imagen-cabecera-texto
+      {
+            position: absolute;
+            top: 60%;
+            left: 60%;
+            font: bold 28px Verdana, sans-serif;
+            color: rgb(255, 255, 255);
+            transform: translate(-30%, -30%);
+            text-align: center;
+            text-size-adjust: inherit;
+      }
+       
+
+
+        .parrafo-gris
+        {
+                margin:0 0 25px;
+                overflow:hidden;
+                padding:20px;
+                background-color:#eeeeee;
+                border:1px solid #c2c5c7;
+                -webkit-border-radius: 5px;
+                border-radius: 5px;
+        }
+
+        .parrafo-verde
+        {
+                margin:0 0 25px;
+                overflow:hidden;
+                padding:20px;
+                background-color:#4b960581;
+                border:1px solid #c2c5c7;
+                -webkit-border-radius: 5px;
+                border-radius: 5px;
+        }
+
+
+        footer {
+                background-color: #1a1818;   
+                font: bold 12px Verdana, sans-serif;
+                color:white;
+        }
